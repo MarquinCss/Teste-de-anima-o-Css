@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+	max-height:500px;
+place-items:center;
+display: flex;
+justify-content:flex-end ;
+align-items: flex-end;
+background-image: url(https://64.media.tumblr.com/aeacde0f4413a7debadc438bd55e57b7/4f81772aebe424dd-9c/s1280x1920/8b66961c1c8f360c073a20e06e0dd40d02a45d06.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+
+}
+
+h1{
+ position:absolute;
+ bottom:300px;
+ right:290px;
+ display:block;
+ font-size: 60px;
+
+}
+
+.gems{
+ animation: go-back 2s infinite;
+
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.all{
+	position:absolute;
+	top:400px;
+}
